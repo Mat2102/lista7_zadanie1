@@ -1,0 +1,35 @@
+--- /var/folders/qk/mnwsy2w90395jnpvx0wt7hh40000gn/T//lista7.QZNgF4/pierwsza.txt	2026-11-25 21:35:03
++++ /var/folders/qk/mnwsy2w90395jnpvx0wt7hh40000gn/T//lista7.QZNgF4/druga.txt	2026-11-25 21:35:04
+@@ -36,24 +36,24 @@
+ komputerów zaczęto szukać sposobu, aby wykorzystywać te logiki do weryfikacji programów komputerowych
+ oraz sprzętu. Ze względu na stosunkowo małą siłę wyrazu klasyczne logiki modalne okazują się jednak często
+ niewystarczające, więc zaproponowano wiele rozszerzeń tych logik.
+-    Zdaniowa logika dynamiczna (PDL), wprowadzona w [?], jest jednym z najbardziej znanych rozszerzeń logik
++    Zdaniowa logika dynamiczna (PDL), wprowadzona w [5], jest jednym z najbardziej znanych rozszerzeń logik
+ modalnych. Szczególnie dobrze nadaje się do opisywania własności programów zapisanych w imperatywnych
+ językach programowania, gdyż pozwala elegancko wyrażać pętle oraz składanie instrukcji. Rok po wprowadze-
+-niu logiki PDL w pracy [?] udowodniono, że problem spełnialności dla tej logiki jest Exptime-zupełny. Dla
++niu logiki PDL w pracy [9] udowodniono, że problem spełnialności dla tej logiki jest Exptime-zupełny. Dla
+ porównania, problem spełnialności dla zwykłych logik modalnych jest PSpace-zupełny.
+     Strzeżony fragment logiki pierwszego rzędu, zwany również logiką ze strażnikami (GF), został po raz pierwszy
+-wprowadzony w pracy [?]. Główną motywacją przy definiowaniu tej logiki była chęć zanurzenia logiki modalnej
++wprowadzony w pracy [1]. Główną motywacją przy definiowaniu tej logiki była chęć zanurzenia logiki modalnej
+ w logice pierwszego rzędu w taki sposób, by nie utracić rozstrzygalności podstawowych problemów decyzyj-
+ nych. W odróżnieniu od zwykłej logiki pierwszego rzędu, w logice ze strażnikami wymagamy, by po każdym
+ kwantyfikatorze pojawił się strażnik, to znaczy formuła, która ogranicza wszystkie zmienne wolne występujące
+-w podformule, którą wiąże ten kwantyfikator. Pełną definicję GF można znaleźć w rozdziale ??.
+-    W pracy, w której zdefiniowano GF ([?]), pokazano również dowód rozstrzygalności problemu spełnialności
++w podformule, którą wiąże ten kwantyfikator. Pełną definicję GF można znaleźć w rozdziale 2.
++    W pracy, w której zdefiniowano GF ([1]), pokazano również dowód rozstrzygalności problemu spełnialności
+ dla wariantu GF bez równości. W ogólnym przypadku problem spełnialności okazał się być 2Exptime-zupełny
+-([?]), jednak przy ograniczonej liczbie zmiennych w formule problem staje się jedynie Exptime-zupełny. Dla
+-porównania, fragment logiki pierwszego rzędu z dwiema zmiennymi (FO2 ) jest NExptime-zupełny ([?]).
++([7]), jednak przy ograniczonej liczbie zmiennych w formule problem staje się jedynie Exptime-zupełny. Dla
++porównania, fragment logiki pierwszego rzędu z dwiema zmiennymi (FO2 ) jest NExptime-zupełny ([6]).
+     Okazuje się, że zdania standardowej logiki modalnej można w prosty sposób przełożyć na zdania logiki ze
+ strażnikami z dwiema zmiennymi, zastępując zmienne przez unarne predykaty oraz operatory modalne przez
+-kwantyfikatory ([?], [?]). Taki przekład zwiększa złożoność obliczeniową problemu spełnialności z PSpace do
++kwantyfikatory ([3], [4]). Taki przekład zwiększa złożoność obliczeniową problemu spełnialności z PSpace do
+ Exptime, jednak w GF2 można wyrazić więcej własności.
+     (. . . )
+ 
